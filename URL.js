@@ -1,0 +1,11 @@
+const BASE_URL = 'http://localhost:4005/';
+export const LOGIN_URL = BASE_URL +'login';
+export const GET_USER_PROFILE_URL = BASE_URL + 'profile/view';
+export const LOGOUT_URL = BASE_URL + 'logout';
+export const USERS_FEED_URL = BASE_URL + 'get/core/feed';
+export const UPDATE_PROFILE_URL = BASE_URL + 'profile/edit';
+export const MY_CONNECTIONS_URL = BASE_URL + 'user/connections';
+export const MY_PENDING_CONNECTIONS_URL = BASE_URL + 'user/pendingRequest';
+export const RESPOND_PENDING_REQUEST_URL = BASE_URL + 'request/review';
+export const SEND_CONNECTION_REQUEST_URL = BASE_URL + 'request/send';
+export const SIGNUP_URL = BASE_URL + 'signup';
